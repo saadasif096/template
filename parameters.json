@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southcentralus"
+        },
+        "networkInterfaceName": {
+            "value": "devws012683"
+        },
+        "subnetName": {
+            "value": "VDI-urochart-sc-vnet1"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/9b64b9ba-19a7-478d-9783-1978175ee32c/resourceGroups/urochart-network-dev-01/providers/Microsoft.Network/virtualNetworks/us-app-dev-int-urochart-southcentralus-vnet-01"
+        },
+        "virtualMachineName": {
+            "value": "DEVWS012"
+        },
+        "virtualMachineComputerName": {
+            "value": "DEVWS012"
+        },
+        "virtualMachineRG": {
+            "value": "urochart-VDI-dev-01"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B4ms"
+        },
+        "nicDeleteOption": {
+            "value": "Delete"
+        },
+        "adminUsername": {
+            "value": "urochart"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "enableHotpatching": {
+            "value": false
+        }
+    }
+}
